@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="logo"><img src="./images/logo.svg" alt="logo"></div>
+      <img class="icon-openClose icon-openMenu" src="./images/icon-menu.svg" alt="icon-menu">
+      <img class="icon-openClose icon-CloseMenu" src="./images/icon-close-menu.svg" alt="icon-menu">
+      <div class="nav-container">
+        <div class="nav-menu">
+          <div class="nav-item feature-company">
+            <div class="dropdown-style features">Features<img class="features-arrowdown" src="./images/icon-arrow-down.svg" alt="arrow-down"><img class="features-arrowup" src="./images/icon-arrow-up.svg" alt="arrow-up">
+            </div>
+            <div class="dropdown-item  features-item">
+              <a href="#"><img src="./images/icon-todo.svg" alt="todo-list">Todo List</a>
+              <a href="#"><img src="./images/icon-calendar.svg" alt="calendar">Calender</a>
+              <a href="#"><img src="./images/icon-reminders.svg" alt="reminders">Reminders</a>
+              <a href="#"><img src="./images/icon-planning.svg" alt="planning">Planning</a>
+            </div>
+          </div>
+          <div class="nav-item feature-company">
+            <div class="dropdown-style company">Company<img class="company-arrowdown" src="./images/icon-arrow-down.svg" alt="arrow-down"><img class="company-arrowup" src="./images/icon-arrow-up.svg" alt="arrow-up">
+            </div>
+            <div class="dropdown-item company-item">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+          <div class="nav-item career-about"><a href="#">Careers</a></div>
+          <div class="nav-item career-about"><a href="#">About</a></div>
+        </div>
+        <div class="login-register">
+          <a href="#" class="login">Login</a>
+          <a href="#" class="register">Register</a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero-container">
+      <div class="hero-containerImg"></div>
+      <div class="hero-body">
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <div class="btn">Learn more</div>
+        <div class="partners">
+          <img src="./images/client-databiz.svg" alt="databiz">
+          <img src="./images/client-audiophile.svg" alt="audiophile">
+          <img src="./images/client-meet.svg" alt="meet">
+          <img src="./images/client-maker.svg" alt="maker">
+        </div>      
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Satyobroto Talukder</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
